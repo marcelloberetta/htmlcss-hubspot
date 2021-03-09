@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+/* .clearfix::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+ */
+
+/* HEADER */
+
+.topbar{
+  height: 75px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid black;
+  position: relative;
+
+  
+}
+
+.initial{
+  width: 220px;
+  height: 75px;
+  left: 250px;
+  position: absolute;
+  
+}
+
+
+.initial > div{
+  display: inline-block;
+  line-height: 75px;
+  font-size: 90%;
+  font-weight: 600;;
+}
+
+
+
+.verticalline{
+  color: grey;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.access{
+  width: 400px;
+  height: 75px;
+  position: absolute;
+  right: 250px;
+  line-height: 75px;
+  
+  }
+
+.buttons{
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5%;
+}
+
+
+.buttonlogin{
+  background-color: transparent;
+  border-color: #fe785a; 
+  color: #fe785a;
+  
+}
+
+.buttonGHF{
+  background-color: #fe785a;
+  color: #ffffff;
+  border: none;
+}
+
+.fa-search{
+  color: #10a4bd;
+}
+
+/* SUBHEADER */
+
+.subheader{
+  
+  height: 75px;
+  position: relative;
+}
+
+.logo{
+  line-height: 75px;
+  left: 250px;
+  position: absolute;
+  
+  
+}
+
+ul{
+  list-style-type: none;
+}
+
+.subheaderlist{
+  position: absolute;
+  right: 250px;
+  line-height: 75px;
+}
+
+.subheaderlist li{
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 35px;
+  
+}
+
+.container{
+  background-image: url(../img/jumbotron.png);
+  height: 615px;
+ 
+  
+}
+
+.button3{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.containertitles{
+  width: 500px;
+  
+  
+}
